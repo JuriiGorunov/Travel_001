@@ -33,11 +33,30 @@ img {
 
 }
 
+.ff-gelassio {
+  font-family: 'Gelasio', serif;
+  font-weight: 500;
+}
+
+.inner-title {
+  font-size: 43px;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inner__subtitle {
+  opacity: 0.6;
+  text-align: center;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
+  color: #000000;
 }
 
 .header {
@@ -108,7 +127,7 @@ body {
   margin: 30px 0 40px 0;
 }
 
-.header__bottom-link{
+.header__bottom-link {
   width: 187px;
   display: block;
   text-align: center;
@@ -116,10 +135,61 @@ body {
   transition: all 0.3s ease;
 }
 
-.header__bottom-link:hover{
+.header__bottom-link:hover {
   opacity: 0.8;
 }
 
 /* Урок 3 */
+/*  section location */
+/* короткая запись p140px0 */
+.location {
+  padding: 140px 0;
+}
 
- 
+.location-subtitle {
+  width: 735px;
+  margin: 0 auto;
+}
+
+.location-wrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-block {
+  width: 360px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition:0.5s;
+}
+/* оригинал   box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08); */
+.location-block:hover{
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.4);
+}
+
+.location-block-title {
+  font-size: 24px;
+  line-height: 150%;
+  margin: 35px 0 10px 0;
+}
+
+/* короткая запись p0-27-33-37+tab */
+.location-block:first-child .location-block-text {
+  padding: 0 27px 33px 27px;
+  opacity: 0.6;
+}
+
+/*  */
+.location-block:nth-child(2) .location-block-text {
+  padding: 0 34px 33px 37px;
+  opacity: 0.6;
+}
+
+.location-block:last-child .location-block-text {
+  padding: 0 13px 33px 13px;
+  opacity: 0.6;
+}
