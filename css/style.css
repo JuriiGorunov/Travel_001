@@ -223,5 +223,20 @@ body {
 
 .sliders__block-loc {
   padding-left: 21px;
-  background: aqua;
+  /* background: aqua; */
+  color: #00000060;
+  position: relative;
 }
+/* вставляем иконку с помощью before */
+.sliders__block-loc::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top:50%;
+  width: 11px;
+  height: 16px;
+  background: url(../images/Special_Offers/svg/loc.svg) no-repeat center;
+  transform: translateY(-50%);
+}
+/* добавляем иконку с помощью background */
+
