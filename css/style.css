@@ -198,3 +198,30 @@ body {
 
 /* section slider */
 
+.slider {
+  padding-bottom: 57px;
+}
+
+.slider-subtitle {
+  width: 656px;
+  margin: 0 auto 60px auto;
+}
+
+.sliders {
+  display: flex;
+}
+
+.sliders__block-wrapp{
+  width: 262px;
+}
+
+.sliders__block-title {
+  font-size: 24px;
+  line-height: 36px;
+  margin: 20px 0 8px 0;
+}
+
+.sliders__block-loc {
+  padding-left: 21px;
+  background: aqua;
+}
