@@ -208,7 +208,7 @@ body {
 }
 
 .sliders {
-  display: flex;
+  /* display: flex; */
 }
 
 .sliders__block-wrapp{
