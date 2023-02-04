@@ -242,4 +242,22 @@ body {
 .sliders__block-stars {
   padding-left: 34px;
   background: url(../images/Special_Offers/svg/Star.svg) no-repeat left center;
+  margin-left: 50px;
 }
+
+p.siders__block-booking {
+  margin: 8px 0 8px 8px;
+  color: #00000060;
+}
+
+.sliders__block-price{
+  font-weight: 500;
+}
+.sliders__block-price span {
+  color: #00000060;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* https://jquery.com/download/ адресс страницы с jquery */
+/* https://kenwheeler.github.io/slick/ так же для слайдера */
