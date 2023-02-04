@@ -239,4 +239,8 @@ body {
   transform: translateY(-50%);
 }
 /* добавляем иконку с помощью background */
-
+.sliders__block-stars {
+  padding-left: 34px;
+  background: aqua;
+  background: url(../images/Special_Offers/svg/Star.svg) no-repeat left center;
+}
