@@ -279,9 +279,25 @@ p.siders__block-booking {
   position: absolute;
 }
 
+/* левая стрелочка */
 .btn-slick-prev{
   bottom: -55px; 
   left: 35.95%;
   z-index: 10;
+}
 
+/* правая стрелочка */
+.btn-slick-next{
+  bottom: -55px; 
+  right: 35.95%;
+  z-index: 10;
+}
+
+/* центрируем наши bots */
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  bottom: -57px;
+  transform: translateX(-50%);
 }
