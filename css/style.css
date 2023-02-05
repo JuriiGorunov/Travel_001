@@ -280,6 +280,8 @@ p.siders__block-booking {
 }
 
 .btn-slick-prev{
-  bottom: 0; 
+  bottom: -55px; 
   left: 35.95%;
+  z-index: 10;
+
 }
