@@ -279,3 +279,7 @@ p.siders__block-booking {
   position: absolute;
 }
 
+.btn-slick-prev{
+  bottom: 0; 
+  left: 35.95%;
+}
