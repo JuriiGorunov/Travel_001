@@ -389,8 +389,9 @@ p.siders__block-booking {
   justify-content: space-between;
   align-items: center;
 }
+
 /* устанавливаем отступ всем кроме последнего */
-.news__right-wrapper:not(:last-child){
+.news__right-wrapper:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -402,7 +403,7 @@ p.siders__block-booking {
   width: 247px;
 }
 
-.news__right-title{
+.news__right-title {
   font-size: 20px;
   line-height: 30px;
 }
@@ -414,4 +415,84 @@ p.siders__block-booking {
 
 .news__tight-link {
   color: #00000080;
+}
+
+/* Урок 6  Footer */
+
+.footer {
+  background: #E5E5E5;
+  padding: 70px 0 78px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  font-family: 'Ribeye', cursive;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  margin-bottom: 40px;
+}
+
+.footer__title {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+}
+
+.footer__link {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+  margin: 10px 0 20px 0;
+  display: block;
+}
+
+.footer__social {
+  display: flex;
+}
+
+.footer__social li:not(:first-child) {
+  margin-left: 27px;
+}
+
+.footer__list li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+}
+
+.footer__list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__subscribe-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  margin-bottom: 42px;
+}
+
+.footer__form {
+  width: 333px;
+  display: flex;
+  justify-content: space-between;
+}
+/* по видео   box-shadow: 0px 0px 10px 1px #00000010;*/
+.input-email {
+  width: 195px;
+  border: 1px solid #00000010;
+  box-shadow: 0px 0px 10px 2px #00000026;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.foorer__btn {
+  width: 103px;
+  padding: 10px 0;
 }
